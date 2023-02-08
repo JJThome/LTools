@@ -21,7 +21,10 @@ int main() {
 		printf("设置键值失败");
 		return EXIT_FAILURE;
 	}
-	printf("成功写入注册表!");
+	printf("成功写入注册表!\n");
 	RegCloseKey(hKey);
+	system("pause");
 	return 0;
 }
+
+
